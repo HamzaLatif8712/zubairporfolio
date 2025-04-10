@@ -1,5 +1,7 @@
 "use client"
 
+import ClientReviews from "@/components/userdetails/ClientReviews"
+import ContactInfo from "@/components/userdetails/ContactInfo"
 import PersonalInfo from "@/components/userdetails/PersonalInfo"
 import Services from "@/components/userdetails/Services"
 
@@ -43,29 +45,16 @@ export default function Home() {
       {/* Client Reviews Section */}
       <section
         id="reviews"
-        className="min-h-screen flex items-center justify-center bg-gray-500 text-white"
+        className="min-h-screen flex items-center justify-center bg-gray-500"
       >
-        <h1 className="text-4xl font-bold">Client Reviews Section</h1>
+        <ClientReviews />
       </section>
 
       {/* Contact Section */}
       <section
         id="contact-info"
-        className="min-h-screen flex flex-col items-center justify-center bg-gray-700 text-white"
-      >
-        <h1 className="text-4xl font-bold">Client Contact Section</h1>
-        <div>
-          <a href="tel:+971526418106" className="text-blue-500 font-semibold">
-            +971 52 641 8106
-          </a>
-          <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=hamza1958712@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 font-semibold hover:underline">
-            hamza1958712@gmail.com
-          </a>
-        </div>
+        className="min-h-screen flex flex-col items-center justify-center bg-gray-700 text-white">
+        <ContactInfo />
       </section>
 
     </div>
