@@ -8,8 +8,8 @@ const DashboardNav = () => {
     const links = [
         { id: 1, name: "Personal Info", sectionId: "personal-info" },
         { id: 2, name: "My Skills & Tools", sectionId: "skills-tools" },
-        { id: 3, name: "My Projects", sectionId: "projects" },
-        { id: 4, name: "Certifications & Courses", sectionId: "certifications" },
+        // { id: 3, name: "My Projects", sectionId: "projects" },
+        // { id: 4, name: "Certifications & Courses", sectionId: "certifications" },
         { id: 5, name: "Client Reviews", sectionId: "reviews" },
         { id: 6, name: "Contact Info", sectionId: "contact-info" }
     ];

@@ -1,5 +1,8 @@
 "use client"
 
+import PersonalInfo from "@/components/userdetails/PersonalInfo"
+import Services from "@/components/userdetails/Services"
+
 export default function Home() {
   return (
     <div>
@@ -9,7 +12,7 @@ export default function Home() {
         id="personal-info"
         className="min-h-screen flex items-center justify-center bg-gray-100"
       >
-        <h1 className="text-4xl font-bold">Personal Info Section</h1>
+        <PersonalInfo />
       </section>
 
       {/* My Skills & Tools Section */}
@@ -17,10 +20,10 @@ export default function Home() {
         id="skills-tools"
         className="min-h-screen flex items-center justify-center bg-gray-200"
       >
-        <h1 className="text-4xl font-bold">My Skills & Tools Section</h1>
+        <Services />
       </section>
 
-      {/* My Projects Section */}
+      {/* My Projects Section 
       <section
         id="projects"
         className="min-h-screen flex items-center justify-center bg-gray-300"
@@ -28,13 +31,14 @@ export default function Home() {
         <h1 className="text-4xl font-bold">My Projects Section</h1>
       </section>
 
-      {/* Certifications & Courses Section */}
+      Certifications & Courses Section
       <section
         id="certifications"
         className="min-h-screen flex items-center justify-center bg-gray-400"
       >
         <h1 className="text-4xl font-bold">Certifications & Courses Section</h1>
       </section>
+    */}
 
       {/* Client Reviews Section */}
       <section
@@ -62,8 +66,8 @@ export default function Home() {
             hamza1958712@gmail.com
           </a>
         </div>
-      </section >
+      </section>
 
-    </div >
+    </div>
   )
 }
