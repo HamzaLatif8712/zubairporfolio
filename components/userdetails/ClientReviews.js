@@ -22,8 +22,8 @@ export default function ClientReviews() {
     };
 
     useEffect(() => {
-        // const interval = setInterval(nextSlide, 3000);
-        // return () => clearInterval(interval);
+        const interval = setInterval(nextSlide, 3000);
+        return () => clearInterval(interval);
     }, [currentIndex]);
 
     return (
