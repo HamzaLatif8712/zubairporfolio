@@ -55,8 +55,8 @@ export default function Home() {
       >
         <h1 className="text-4xl font-bold">Client Contact Section</h1>
         <div>
-          <a href="tel:+923011958712" className="text-blue-500 font-semibold">
-            +92 301 1958712
+          <a href="tel:+971526418106" className="text-blue-500 font-semibold">
+            +971 52 641 8106
           </a>
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=hamza1958712@gmail.com"
