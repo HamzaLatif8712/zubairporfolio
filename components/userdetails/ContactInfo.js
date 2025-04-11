@@ -25,7 +25,7 @@ const ContactInfo = () => {
     }
 
     return (
-        <div className='w-6/12'>
+        <div className='w-11/12 md:w-6/12'>
             <div style={{ fontWeight: "800", fontSize: 22 }}>
                 Social Contacts
             </div>
